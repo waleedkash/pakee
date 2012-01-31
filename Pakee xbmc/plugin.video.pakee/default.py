@@ -7,11 +7,11 @@ from BeautifulSoup import BeautifulStoneSoup, BeautifulSoup
 
 __plugin__ = 'Pakee'
 __author__ = 'pakeeapp@gmail.com'
-__url__ = 'http://pakee.hopto.org/pakee'
+__url__ = 'http://code.google.com/p/pakee/'
 __date__ = '01-04-2011'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __settings__ = xbmcaddon.Addon(id='plugin.video.pakee')
-__rooturl__ = 'http://pakee.hopto.org/pakee/pakee-betaplus.xml?ki=zz1'
+__rooturl__ = 'http://pakee.hopto.org/pakee/pakee-betaplus.xml'
 __language__ = __settings__.getLocalizedString
 
 pakee_thumb = os.path.join( __settings__.getAddonInfo( 'path' ), 'resources', 'media', 'pakee.png' )
@@ -62,7 +62,8 @@ def play_picture_slideshow(origurl, name):
 	#user clicked on a picture
 	if origurl[-4:]=='.jpg' or origurl[-4:]=='.gif' or origurl[-4:]=='.png':
 		print "Single picture mode"		
-		origurl.replace( ' ', '%20' )
+		origurl = origurl.replace( ' ', '%20' )
+		xbmc.log("adding to picture slideshow: " + str(origurl))
 		xbmc.executehttpapi("ClearSlideshow")
 		xbmc.executehttpapi("AddToSlideshow(%s)" % origurl)
 		xbmc.executebuiltin( "SlideShow(,,notrandom)" )
@@ -296,7 +297,7 @@ def getItemFieldsBS(item):
 		viewcount = string.atoi(viewcount)
 
 	if url:
-		url.replace( ' ', '%20' )
+		url = url.replace( ' ', '%20' )
 
 	#return {'label': label, 'url':url, 'description': description, 'pubDate': pubDate, 'guid': guid, 'thumb': thumb, 'duration': duration, 'rating': rating, 'viewcount': viewcount}
 	return label, url, description, pubDate, guid, thumb, duration, rating, viewcount
