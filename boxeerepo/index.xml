@@ -1,0 +1,38 @@
+<apps>
+   <app>
+      <id>com.pakee.pakee</id>
+      <name>Pakee</name>
+      <version>1.3</version>
+      <description>Browse media from Pakistan</description>
+      <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
+      <repositoryid>com.pakee</repositoryid>
+      <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
+      <media>video</media>
+      <author>pakee</author>
+      <copyright>pakee</copyright>
+      <email>pakeeapp@gmail.com</email>
+      <type>skin</type>
+      <startWindow>14000</startWindow>
+      <platform>all</platform>
+      <minversion>0.9.5</minversion>
+      <maxversion>1.4.9</maxversion>
+   </app>
+   <app>
+      <id>com.pakee.pakee</id>
+      <name>Pakee</name>
+      <version>3.0</version>
+      <description>Browse media from Pakistan</description>
+      <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
+      <repositoryid>com.pakee</repositoryid>
+      <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
+      <media>video</media>
+      <author>pakee</author>
+      <copyright>pakee</copyright>
+      <email>pakeeapp@gmail.com</email>
+      <type>skin</type>
+      <startWindow>14000</startWindow>
+      <platform>all</platform>
+      <minversion>1.5.0</minversion>
+   </app>
+</apps>
+

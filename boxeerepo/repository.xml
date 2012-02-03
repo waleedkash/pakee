@@ -1,0 +1,8 @@
+<repository>
+   <id>com.pakee</id>
+   <url>http://pakee.googlecode.com/svn/trunk/boxeerepo</url>
+   <name>pakee</name>
+   <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
+   <description>Official Pakee Boxee repository</description>
+</repository>
+
