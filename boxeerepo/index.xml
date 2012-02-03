@@ -20,7 +20,7 @@
    <app>
       <id>com.pakee.pakee</id>
       <name>Pakee</name>
-      <version>3.0</version>
+      <version>3.1</version>
       <description>Browse media from Pakistan</description>
       <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
       <repositoryid>com.pakee</repositoryid>
