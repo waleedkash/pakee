@@ -1,9 +1,9 @@
 <apps>
    <app>
-      <id>com.pakee.pakee</id>
+      <id>com.pakee.pakeenew</id>
       <name>Pakee</name>
-      <version>3.1</version>
-      <description>Browse media from Pakistan</description>
+      <version>1.0</version>
+      <description>Browse media from Pakistan (for Boxee versions 1.5.x onwards)</description>
       <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
       <repositoryid>com.pakee</repositoryid>
       <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
@@ -13,14 +13,14 @@
       <email>pakeeapp@gmail.com</email>
       <type>skin</type>
       <startWindow>14000</startWindow>
-      <platform>dlink.dsm380</platform>
-      <minversion>1.0.0</minversion>
+      <platform>all</platform>
+      <minversion>1.5.0</minversion>
    </app>
    <app>
-      <id>com.pakee.pakeeold</id>
+      <id>com.pakee.pakee</id>
       <name>Pakee</name>
-      <version>1.3</version>
-      <description>Browse media from Pakistan</description>
+      <version>1.4</version>
+      <description>Browse media from Pakistan (for Boxee versions prior to 1.5.x)</description>
       <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
       <repositoryid>com.pakee</repositoryid>
       <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
@@ -30,8 +30,10 @@
       <email>pakeeapp@gmail.com</email>
       <type>skin</type>
       <startWindow>14000</startWindow>
-      <platform>win,mac,atv,linux</platform>
-      <minversion>0.9.2</minversion>
+      <platform>all</platform>
+      <minversion>0.9.5</minversion>
+      <maxversion>1.4.9</maxversion>
+
    </app>
 
 </apps>
