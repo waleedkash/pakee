@@ -13,7 +13,7 @@
       <email>pakeeapp@gmail.com</email>
       <type>skin</type>
       <startWindow>14000</startWindow>
-      <platform>all</platform>
+      <platform>dlink.dsm380</platform>
       <minversion>1.0.0</minversion>
    </app>
    <app>
@@ -30,8 +30,8 @@
       <email>pakeeapp@gmail.com</email>
       <type>skin</type>
       <startWindow>14000</startWindow>
-      <platform>all</platform>
-      <minversion>0.9.2</minversion>
+      <platform>win,mac,atv,linux</platform>
+      <minversion>0.9.20</minversion>
 
    </app>
 
