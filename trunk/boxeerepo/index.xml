@@ -2,7 +2,7 @@
    <app>
       <id>com.pakee.pakeenew</id>
       <name>Pakee</name>
-      <version>1.0</version>
+      <version>1.1</version>
       <description>Browse media from Pakistan (for Boxee versions 1.5.x onwards)</description>
       <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
       <repositoryid>com.pakee</repositoryid>
@@ -14,12 +14,12 @@
       <type>skin</type>
       <startWindow>14000</startWindow>
       <platform>all</platform>
-      <minversion>0.9.2</minversion>
+      <minversion>1.0.0</minversion>
    </app>
    <app>
       <id>com.pakee.pakee</id>
       <name>Pakee</name>
-      <version>1.4</version>
+      <version>1.5</version>
       <description>Browse media from Pakistan (for Boxee versions prior to 1.5.x)</description>
       <thumb>http://pakee.hopto.org/pakee/pakee.png</thumb>
       <repositoryid>com.pakee</repositoryid>
