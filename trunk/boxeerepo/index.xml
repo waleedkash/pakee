@@ -33,22 +33,21 @@
       <platform>win,mac,atv,linux</platform>
       <minversion>0.9.20</minversion>
    </app>
-<app>
-  <id>com.pakee.plexee</id>
-  <name>Plexee</name>
-  <version>0.1</version>
-  <description>Browse media from Plex (for Boxee versions prior to 1.5.x)</description>
-  <thumb>http://pakee.hopto.org/pakee/plexee.png</thumb>
-  <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
-  <repositoryid>com.pakee</repositoryid>
-  <media>video</media>
-  <copyright>pakee</copyright>
-  <email>pakeeapp@gmail.com</email>
-  <type>skin</type>
-  <startWindow>14000</startWindow>
-  <platform>win,mac,atv,linux</platform>
-  <minversion>0.9.20</minversion>
-</app>
-
+   <app>
+      <id>com.pakee.plexee</id>
+      <name>Plexee</name>
+      <version>0.1</version>
+      <description>Browse media from Plex (for Boxee versions prior to 1.5.x)</description>
+      <thumb>http://pakee.hopto.org/pakee/plexee.png</thumb>
+      <repository>http://pakee.googlecode.com/svn/trunk/boxeerepo</repository>
+      <repositoryid>com.pakee</repositoryid>
+      <media>video</media>
+      <copyright>pakee</copyright>
+      <email>pakeeapp@gmail.com</email>
+      <type>skin</type>
+      <startWindow>14000</startWindow>
+      <platform>win,mac,atv,linux</platform>
+      <minversion>0.9.20</minversion>
+   </app>
 </apps>
 
