@@ -36,7 +36,7 @@ echo "  <webmaster>pakeeapp@gmail.com</webmaster>"."\n";
 echo "  <link>http://www.plex.com</link>"."\n";
 
 
-# Parse dunyanews feed to find links of youtube videos
+
 $xml = parseFeed ($url, $port);
 
 //var_dump($xml);
