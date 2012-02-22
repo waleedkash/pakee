@@ -1,4 +1,5 @@
 [B]Version 1.0.5[/B]
+- Added support for browsing espncricinfo.com 
 - Fixed issue where feeds with alternate pubDate format were failing
 - Fixed hardcoded prompt messsages
 
