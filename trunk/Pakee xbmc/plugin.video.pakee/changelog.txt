@@ -1,7 +1,7 @@
 [B]Version 1.0.6[/B]
 - Added cricket streams under "Live TV Channels" category
 - Added support for rtsp streams
-
+- Fixed Dunya news live stream
 
 [B]Version 1.0.5[/B]
 - Added support for browsing espncricinfo.com
