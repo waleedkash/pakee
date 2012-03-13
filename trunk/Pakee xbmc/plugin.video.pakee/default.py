@@ -9,9 +9,9 @@ __plugin__ = 'Pakee'
 __author__ = 'pakeeapp@gmail.com'
 __url__ = 'http://code.google.com/p/pakee/'
 __date__ = '01-04-2011'
-__version__ = '1.0.5'
+__version__ = '1.0.6'
 __settings__ = xbmcaddon.Addon(id='plugin.video.pakee')
-__rooturl__ = 'http://pakee.hopto.org/pakee/pakee.php?id=xbmc'
+__rooturl__ = 'http://pakee.hopto.org/pakee/pakee.php?id=xbmc&z=9'
 #__rooturl__ = 'http://pakee.hopto.org/pakee/pakee-test.xml?x=5'
 __language__ = __settings__.getLocalizedString
 
@@ -197,7 +197,7 @@ def build_show_directory(origurl):
 		isFolder = False
 		mode = PLUGIN_MODE_PLAY_STREAM
 
-		for streamurl in match:
+		for streamurl in match:			
 			streamurl = streamurl.replace("http","mms")
 			streamurl = streamurl.replace(" ","%20")
 			xbmc.log("Found url: " + str(streamurl))
