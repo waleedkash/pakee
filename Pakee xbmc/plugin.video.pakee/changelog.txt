@@ -1,3 +1,7 @@
+[B]Version 1.0.8[/B]
+- Fixed streams from http://bglive-a.bitgravity.com
+
+
 [B]Version 1.0.7[/B]
 - Added other desi streams under "Live TV Channels" category from desistreams.googlecode.com (courtesy of angelworld...Thanks!)
 - Fixed Geo News stream (now streamed from their Youtube channel)
