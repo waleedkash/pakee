@@ -1,3 +1,8 @@
+[B]Version 1.0.7[/B]
+- Added other desi streams under "Live TV Channels" category from desistreams.googlecode.com (courtesy of angelworld...Thanks!)
+- Fixed Geo News stream (now streamed from their Youtube channel)
+
+
 [B]Version 1.0.6[/B]
 - Added cricket streams under "Live TV Channels" category
 - Added support for rtsp streams
@@ -10,7 +15,7 @@
 
 
 [B]Version 1.0.4[/B]
-- Added live channel streams (courtesy of yacir Thanks!)
+- Added live channel streams (courtesy of yacir...Thanks!)
 - Set default sorting to be by title for drama episodes
 
 [B]Version 1.0.3[/B]
