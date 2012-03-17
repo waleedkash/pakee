@@ -1,5 +1,13 @@
+[B]Version 1.0.9[/B]
+- Added support for http:// live streams from desistreams.xml (fixes Apna, Qtv)
+
+
 [B]Version 1.0.8[/B]
+
+- Added urdu channels from roshantv.com to both the desistreams repository and pakee plugin:
+ARY Digital, Express Entertainment, Geo Entertainment, Hum Tv,Kashmir TV, nVibeTv, Sohni Dharti, PTV Sports, 8x music
 - Fixed streams from http://bglive-a.bitgravity.com
+
 
 
 [B]Version 1.0.7[/B]
