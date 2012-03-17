@@ -9,7 +9,7 @@ __plugin__ = 'Pakee'
 __author__ = 'pakeeapp@gmail.com'
 __url__ = 'http://code.google.com/p/pakee/'
 __date__ = '01-04-2011'
-__version__ = '1.0.8'
+__version__ = '1.0.9'
 __settings__ = xbmcaddon.Addon(id='plugin.video.pakee')
 __rooturl__ = 'http://pakee.hopto.org/pakee/pakee.php?id=xbmc&z=9'
 #__rooturl__ = 'http://pakee.hopto.org/pakee/pakee-test.xml?a=5'
@@ -318,7 +318,7 @@ def build_show_directory(origurl):
 					url = origurl
 
 
-			if 'rtmp://' in url or 'mms://' in url or 'rtsp://' in url or 'http://bglive-a.bitgravity.com' in url:
+			if 'rtmp://' in url or 'mms://' in url or 'rtsp://' in url or 'desistreams.xml' in origurl:
 				isFolder = False
 				mode = PLUGIN_MODE_PLAY_STREAM
 
